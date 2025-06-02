@@ -2,7 +2,7 @@ speechbrain==0.5.13
 torch==2.6.0
 torchaudio==2.6.0
 ffmpeg-python==0.2.0 
-sentencepiece --prefer-binary
+sentencepiece==0.1.95
 streamlit==1.34.0
 
 
