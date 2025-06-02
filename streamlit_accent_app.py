@@ -43,6 +43,20 @@ def classify_accent(audio_path):
     except Exception as e:
         return "Error", 0.0
 
+
+
+
+
+import os
+
+print("\n🗂 Current Working Directory Files:")
+for dirpath, dirnames, filenames in os.walk(".", topdown=True):
+    print(f"\n📁 {dirpath}")
+    for file_name in filenames:
+        print(f"   - {file_name}")
+
+
+
 # --- STREAMLIT UI START ---
 st.set_page_config(page_title="🎧 English Accent Analyzer", layout="wide")
 st.title("🎧 English Accent Analyzer")
