@@ -1,0 +1,7 @@
+```yaml
+# Örnek içerik
+modules:
+  model: !new:speechbrain.lobes.models.huggingface_wav2vec.HuggingFaceWav2Vec2
+
+model: !ref <model>
+```
