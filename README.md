@@ -1,14 +1,5 @@
 # 🎙️ AuroraDuke Accent Detector
-![Ekran görüntüsü 2025-06-02 170128](https://github.com/user-attachments/assets/ae7f671e-7b55-4350-8f64-13500120e483)
-![Ekran görüntüsü 2025-06-02 170147](https://github.com/user-attachments/assets/8f8d5a64-3d20-4afc-ae4e-0d66d9bf57cc)
-![Ekran görüntüsü 2025-06-02 170217](https://github.com/user-attachments/assets/42dc32a5-9006-4700-8527-6698e2d2b7fb)
-#Win
-
-![Ekran görüntüsü 2025-06-02 170432](https://github.com/user-attachments/assets/577b31cb-0b1c-4c4b-84c7-a35a9409d674)
-![Ekran görüntüsü 2025-06-02 170501](https://github.com/user-attachments/assets/fd0c1c88-b6b7-407e-b23a-2bfbcfff28b9)
-![Ekran görüntüsü 2025-06-02 170526](https://github.com/user-attachments/assets/50223d28-9458-4962-b636-ecb722b8ae5b)
-
-
+![Ekran görüntüsü 2025-06-02 165406](https://github.com/user-attachments/assets/00599084-e6d2-4340-9090-be26160b79f9)
 
 This project is a Python-based application that detects the **English accent** from a given audio file. It provides two interfaces:
 
@@ -47,6 +38,10 @@ pip install -r requirements.txt
 ```bash
 streamlit run streamlit_accent_app.py
 ```
+![Ekran görüntüsü 2025-06-02 170128](https://github.com/user-attachments/assets/ae7f671e-7b55-4350-8f64-13500120e483)
+![Ekran görüntüsü 2025-06-02 170147](https://github.com/user-attachments/assets/8f8d5a64-3d20-4afc-ae4e-0d66d9bf57cc)
+![Ekran görüntüsü 2025-06-02 170217](https://github.com/user-attachments/assets/42dc32a5-9006-4700-8527-6698e2d2b7fb)
+
 
 This will launch a web app in your browser, where you can upload `.wav` audio files and view the predicted accent along with a confidence score.
 
@@ -55,7 +50,9 @@ This will launch a web app in your browser, where you can upload `.wav` audio fi
 ```bash
 python accent-win.py
 ```
-
+![Ekran görüntüsü 2025-06-02 170432](https://github.com/user-attachments/assets/577b31cb-0b1c-4c4b-84c7-a35a9409d674)
+![Ekran görüntüsü 2025-06-02 170501](https://github.com/user-attachments/assets/fd0c1c88-b6b7-407e-b23a-2bfbcfff28b9)
+![Ekran görüntüsü 2025-06-02 170526](https://github.com/user-attachments/assets/50223d28-9458-4962-b636-ecb722b8ae5b)
 A GUI window will open, allowing you to select an audio file, analyze it, and optionally export the results to a CSV file.
 
 ---
