@@ -9,7 +9,7 @@ from speechbrain.pretrained.interfaces import foreign_class
 
 # Load model
 classifier = foreign_class(
-    source="pretrained_models/accent.yaml",
+    source="Jzuluaga/accent-id-commonaccent_xlsr-en-english",
     pymodule_file="custom_interface.py",
     classname="CustomEncoderWav2vec2Classifier"
 )
