@@ -4,6 +4,7 @@ torchaudio==2.6.0
 ffmpeg-python==0.2.0 
 streamlit==1.34.0
 huggingface_hub>=0.23.0
+torchvision>=0.15.0
 
 
 
